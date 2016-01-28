@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/c0nrad/http2fuzz/config"
-	"github.com/c0nrad/http2fuzz/util"
+	"github.com/johnso51/http2fuzz/config"
+	"github.com/johnso51/http2fuzz/util"
 
 	"github.com/bradfitz/http2"
 )

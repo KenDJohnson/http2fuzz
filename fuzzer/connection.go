@@ -14,7 +14,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/c0nrad/http2fuzz/replay"
+	"github.com/johnso51/http2fuzz/replay"
 
 	"github.com/bradfitz/http2"
 	"github.com/bradfitz/http2/hpack"

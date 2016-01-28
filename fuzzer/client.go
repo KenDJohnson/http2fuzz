@@ -4,7 +4,7 @@
 // http2fuzz - HTTP/2 Fuzzer
 package fuzzer
 
-import "github.com/c0nrad/http2fuzz/config"
+import "github.com/johnso51/http2fuzz/config"
 
 func Client() {
 	target := config.Target

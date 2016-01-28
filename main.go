@@ -4,8 +4,8 @@ import (
 	"flag"
 	"os"
 
-	"github.com/c0nrad/http2fuzz/config"
-	"github.com/c0nrad/http2fuzz/fuzzer"
+	"github.com/johnso51/http2fuzz/config"
+	"github.com/johnso51/http2fuzz/fuzzer"
 )
 
 func main() {

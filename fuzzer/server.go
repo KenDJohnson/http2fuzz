@@ -10,8 +10,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/c0nrad/http2fuzz/config"
-	"github.com/c0nrad/http2fuzz/replay"
+	"github.com/johnso51/http2fuzz/config"
+	"github.com/johnso51/http2fuzz/replay"
 )
 
 func FuzzConnection(conn net.Conn) {
