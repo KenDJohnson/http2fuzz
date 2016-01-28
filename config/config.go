@@ -42,7 +42,7 @@ func init() {
 	flag.StringVar(&Port, "port", "8000", "port to listen from")
 	flag.StringVar(&Interface, "listen", "0.0.0.0", "interface to listen from")
 
-	// flag.BoolVar(&ReplayMode, "replay", false, "replay frames from replay.json")
+	flag.BoolVar(&ReplayMode, "replay", false, "replay frames from replay.json")
 	flag.Parse()
 
 	RestartDelay = time.Duration(restartMillisecond) * time.Millisecond
